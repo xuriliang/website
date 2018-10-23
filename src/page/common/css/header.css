@@ -1,0 +1,34 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    padding: 12px 0;
+    text-align: center;
+}
+.logo,.navbar,.contact{
+	display: inline-block;
+}
+
+.logo__img{
+	vertical-align: middle;
+}
+.logo__txt{
+    color: #fff;
+}
+.navbar{
+	margin-left: 50px;
+	margin-right:60px;
+}
+.navbar a{
+	color:#fff;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+.contact__num{
+	color:#fff;
+	padding-left:30px;
+	background: url(../images/icon.png) 0 0 no-repeat;
+    margin-right: 20px;
+}
